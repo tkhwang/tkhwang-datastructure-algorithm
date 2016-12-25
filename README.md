@@ -4,6 +4,7 @@
 
 * [Codewars](https://www.codewars.com/dashboard)  
 	- ![img](https://www.codewars.com/users/tkhwang/badges/large)
+* [The Python Challenge](http://www.pythonchallenge.com/)
 * [Baekjoon Online Judge](https://www.acmicpc.net/)
 * [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains?h_r=logo)
 
