@@ -1,6 +1,25 @@
 # Python Challenge
 
 
+## 2
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import re
+
+with open('./page.txt') as f:
+    data = f.read()
+
+with open('./data.txt', 'w') as f:
+    f.write(data)
+
+print "".join(re.findall("[A-Za-z]", data))
+```
+
+Next: http://www.pythonchallenge.com/pc/def/equality.html
+
 ## 1
 
 CTF 에 많이 나오는 Caesar Cipher 인 듯.
