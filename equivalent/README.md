@@ -7,4 +7,5 @@
 
 ## Udemy : python-video-workbook
 
+- 2017.01.13 : problem solving
 - 2017.01.10 : problem solving
