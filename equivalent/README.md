@@ -1,5 +1,9 @@
 # Equivalent Activity | My own Coding Practice
 
+## Coursera 
+
+- 2017.01.23 : A develop's guide to the internet of things (IoT) : ~ week1 (completed)
+
 ## CTF
 
 - 2017.01.21 : [Insomni'hack 2017 Teaser](https://teaser.insomnihack.ch/) - misc/crypto cryptoquizz :)
