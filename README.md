@@ -4,7 +4,7 @@
 
 * Programming
 	* [Codewars](https://www.codewars.com/dashboard)   :  ![img](https://www.codewars.com/users/tkhwang/badges/large)
-* Udemy : python
+* Python
 	* [The Python Video Workbook: Solve 100 Exercises | Udemy](https://www.udemy.com/python-video-workbook)
 	* [Complete Python Bootcamp: Go from zero to hero in Python | Udemy](https://www.udemy.com/complete-python-bootcamp/learn)
 * CTF
