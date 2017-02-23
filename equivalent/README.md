@@ -1,7 +1,8 @@
 # Equivalent Activity | My own Coding Practice
 
-## Coursera 
+## Mook
 
+- 2017.02.23 : Udacity deep learning - Sentiment Analysis with Andrew Trask
 - 2017.01.23 : A develop's guide to the internet of things (IoT) : ~ week1 (completed)
 
 ## CTF
