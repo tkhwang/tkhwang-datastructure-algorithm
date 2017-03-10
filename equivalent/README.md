@@ -17,3 +17,7 @@
 
 - 2017.01.13 : problem solving
 - 2017.01.10 : problem solving
+
+## ETC
+
+- 2017.03.10 : seminar preparation - iot security
