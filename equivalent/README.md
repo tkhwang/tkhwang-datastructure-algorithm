@@ -20,4 +20,5 @@
 
 ## ETC
 
+- 2017.03.17 :  본부 세미나 발표 완료
 - 2017.03.10 ~ 11 : seminar preparation - iot security
