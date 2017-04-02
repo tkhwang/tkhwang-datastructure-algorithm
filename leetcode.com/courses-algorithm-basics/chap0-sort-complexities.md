@@ -14,8 +14,6 @@ Sort the following complexities:
 ​​```
 
 
-<!-- more -->
-
 ## Analysis
 
 ![img](https://discuss.leetcode.com/uploads/files/1461676022218-big-o-complexity.png)
