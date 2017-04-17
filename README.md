@@ -1,6 +1,10 @@
 # My own Coding Practice
 
-  
+## 2017.04
+
+* [Solve 30 Days of Code Questions | Tutorials | HackerRank](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
+* [Solve Warmup Questions | Algorithms | HackerRank](https://www.hackerrank.com/domains/algorithms/warmup)
+
 ## 2017.01 ~
 
 * Programming
@@ -15,11 +19,9 @@
 	* [Baekjoon Online Judge](https://www.acmicpc.net/)
 	* [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains?h_r=logo)
 
-## 2016.12 
+## 2016.12
 
-* [Codewars](https://www.codewars.com/dashboard) 
+* [Codewars](https://www.codewars.com/dashboard)
 * [The Python Challenge](http://www.pythonchallenge.com/)
 
 ##  [Equivalent Activities](https://github.com/tkhwang/coding-practice/tree/master/equivalent)
-
-
