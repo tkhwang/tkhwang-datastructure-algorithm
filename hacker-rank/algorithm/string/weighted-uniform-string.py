@@ -1,33 +1,29 @@
-#!/bin/python3
+#!/bin/python
 
 import sys
+import string
+a = set()
+ll = []
+s = raw_input().strip()
+d = {}
 
-def combinationG(input):
-    level=['']
-    for v in input:
-        nList=[]
-        for item in level:
-            new = item + v
-            yield new
-            nList.append(new)
-        level+=nList
 
-s = input().strip()
-n = int(input().strip())
+substr = []
+for i in reversed(xrange(len(s)-1)):
+    if s[i] != s[i+1]:
+        substr.append(s[i+1:])
+        s = s[:i+1]
+substr.append(s)
 
-possible = list()
-combinations = list(set(combinationG(s)))
-for combination in combinations:
-    for character in combination:
-        print(character, combination)
-        if combination.count(character) == 1:
-            possible.append(combination)
-        else:
-            continue
+for i in substr:
+    if i[0] not in d or len(i) > d[i[0]]:
+        d[i[0]] = len(i)
 
-#print(possible)
-
-for a0 in range(n):
-    x = int(input().strip())
-    # your code goes here
-    #print(a0,x)
+n = long(raw_input().strip())
+flag = "No"
+for i in xrange(n):
+    x = int(raw_input().strip())
+    for j in d:
+        if x%(ord(j)-96)==0 and d[j]*(ord(j)-96)>=x: flag = "Yes"
+    print flag
+    flag = "No"
