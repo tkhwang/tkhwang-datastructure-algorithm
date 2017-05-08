@@ -1,5 +1,10 @@
 # My own Coding Practice
 
+## 2017.05
+
+* [Solve Warmup Questions | Algorithms | HackerRank](https://www.hackerrank.com/domains/algorithms/warmup)
+* [Codewars](https://www.codewars.com/dashboard)
+
 ## 2017.04
 
 * [Solve 30 Days of Code Questions | Tutorials | HackerRank](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
