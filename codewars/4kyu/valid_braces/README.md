@@ -4,6 +4,7 @@
 
 ## My Solution
 
+### 1st
 
 ```python
 def validBraces(string):
@@ -26,6 +27,50 @@ def validBraces(string):
     return not stack
 ```
 
+### 2nd
+
+Stack 을 활용한 풀이 
+
+```python
+def validBraces(symbolString):
+    class Stack:
+        def __init__(self):
+            self.items = []
+        def isEmpty(self):
+            return self.items == []
+        def push(self, item):
+            self.items.append(item)
+        def pop(self):
+            return self.items.pop()
+        def peek(self):
+            return self.items[len(self.items)-1]
+
+    s = Stack()
+    balanced = True
+    index = 0
+
+    while index < len(symbolString) and balanced:
+        symbol = symbolString[index]
+        if symbol == "(" or symbol == "[" or symbol == "{":
+            s.push(symbol)
+        elif symbol == ")" or symbol == "]" or symbol == "}":
+            if s.isEmpty():
+                balanced = False
+            else:
+                if s.peek() == "(" and symbol == ")" or s.peek() == "{" and symbol == "}" or s.peek() == "[" and symbol == "]":
+                    s.pop()
+        index = index + 1
+
+    if balanced and s.isEmpty() :
+        return True
+    else:
+        return False
+```
+
+
+
+
+
 ## Better other solutions
 
 ### good to understand
@@ -46,6 +91,19 @@ def validBraces(s):
 
 ### clever
 
+```python
+BRACES = {"(":")", "{":"}","[":"]"}
+
+def validBraces(string):
+  waiting = []
+  for l in string:
+    if l in BRACES.keys():
+      waiting.append(BRACES[l])
+    elif not waiting or waiting.pop() != l:
+      return False
+  return not waiting
+```
+  
 
 ```python
 def validBraces(string):
