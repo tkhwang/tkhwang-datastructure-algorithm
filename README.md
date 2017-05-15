@@ -5,8 +5,7 @@
 * [Design of Computer Programs - Udacity](https://classroom.udacity.com/courses/cs213)
 * [Solve Warmup Questions | Algorithms | HackerRank](https://www.hackerrank.com/domains/algorithms/warmup)
 * [Codewars](https://www.codewars.com/dashboard)
-* Book 
-	- [Problem Solving with Algorithms and Data Structures Using Python SECOND EDITION: 9781590282571: Computer Science Books @ Amazon.com](https://www.amazon.com/Problem-Solving-Algorithms-Structures-Python/dp/1590282574/ref=sr_1_1?ie=UTF8&qid=1494513932&sr=8-1&keywords=problem+solving+with+algorithms+and+data+structures+using+python)
+
 
 ## 2017.04
 
