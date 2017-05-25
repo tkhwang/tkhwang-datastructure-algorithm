@@ -2,9 +2,12 @@
 
 ## 2017.05
 
-* [Design of Computer Programs - Udacity](https://classroom.udacity.com/courses/cs213)
-* [Solve Warmup Questions | Algorithms | HackerRank](https://www.hackerrank.com/domains/algorithms/warmup)
-* [Codewars](https://www.codewars.com/dashboard)
+* Programming
+	* [Codewars](https://www.codewars.com/dashboard)
+	* [Solve Warmup Questions | Algorithms | HackerRank](https://www.hackerrank.com/domains/algorithms/warmup)
+	* [Design of Computer Programs - Udacity](https://classroom.udacity.com/courses/cs213)
+* CTF
+	- [Writing Security Tools and Exploits: James C. Foster, Vincent T. Liu: 9781597499972: Amazon.com: Books](https://www.amazon.com/Writing-Security-Tools-Exploits-Foster/dp/1597499978/ref=sr_1_1?ie=UTF8&qid=1495722447&sr=8-1&keywords=writing+security+tools+and+exploits)
 
 
 ## 2017.04
