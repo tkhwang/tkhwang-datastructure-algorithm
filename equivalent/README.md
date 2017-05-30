@@ -15,6 +15,7 @@
 
 ## Hacking
 
+- 2017.05.30 : ret2plt, ret2libc understanding.
 - 2017.03.20 : RoP exploit
 
 ## Udemy : python-video-workbook
