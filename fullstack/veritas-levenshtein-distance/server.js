@@ -17,21 +17,27 @@ app.use(express.static(__dirname + "/public"));
 const fs = require("fs");
 const wordListPath = require("word-list");
 const wordArray = fs.readFileSync(wordListPath, "utf8").split("\n");
+var newWordArray = [];
+var newWordObject = {};
 console.log(wordArray);
 
-// Query via http://127.0.0.1/?word=XXX
 app.get("/", function(req, res) {
-  // ejs render automatically looks in the views folder
+  res.render("index");
+});
+
+// Query via http://127.0.0.1/qeury
+//           http://127.0.0.1/qeury/?word=test
+app.get("/query", function(req, res) {
   var input_word = req.query.word;
   console.log("[+] input_word ", input_word);
 
-  for (var i=0 ; wordArray.length, i++ ) {
-	  
+  for (var i = 0, length = wordArray.length; i < length; i++) {
+    newWordArray.push(wordArray[i]);
+    newWordObject[newWordArray[i]] = distance;
+    var distance = levenshtein.get(input_word, wordArray[i]);
+    console.log("[*] ", wordArray[i], distance);
   }
-  var distance = levenshtein.get(input_word, "book");
-  console.log("[+] distance = ", distance);
-
-  res.render("index");
+  console.log("[*] newWordObject = ", newWordObject);
 });
 
 app.listen(port, function() {
