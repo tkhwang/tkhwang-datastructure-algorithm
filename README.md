@@ -6,6 +6,10 @@
 
 - [실전] JavaScript 로 비트코인 클론하기 https://academy.nomadcoders.co/courses/enrolled/289068
 - Ethereum and Solidity: The Complete Developer's Guide https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview
+- 
+### GO Language
+
+- Go: The Complete Developer's Guide (Golang) https://www.udemy.com/go-the-complete-developers-guide/learn/v4/content
 
 ### Algorithm
 
@@ -14,7 +18,11 @@
 ### Fullstack
 
 - Node with React: Fullstack Web Development https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/content
+
+### Javascript
+
 - Node JS: Advanced Concepts https://www.udemy.com/advanced-node-for-developers/learn/v4/overview
+- ES6 Javascript: The Complete Developer's Guide https://www.udemy.com/javascript-es6-tutorial/learn/v4/overview
 
 ## 2017.05
 
