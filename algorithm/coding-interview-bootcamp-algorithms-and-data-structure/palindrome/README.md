@@ -13,7 +13,7 @@ function palindrome(str) {
 }
 ```
 
-## #2 (javascript)
+## #2 (javascript) `str[i]` 와 `str[i-i]` 값 비교
 
 - [C Program to Check if a Given String is Palindrome - GeeksforGeeks](https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/)
 
