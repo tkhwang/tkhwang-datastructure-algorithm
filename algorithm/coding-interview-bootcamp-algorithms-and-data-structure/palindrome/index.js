@@ -18,10 +18,15 @@ function palindrome(str) {
 }
 */
 
+/*
 function palindrome(str) {
   return str.split("").every((char, i) => {
     return char === str[str.length - i - 1];
   });
 }
+*/
+
+// https://dev.to/johnpyp/comment/4c2e
+const palindrome = string => [...string].reverse().join("") === string;
 
 module.exports = palindrome;
