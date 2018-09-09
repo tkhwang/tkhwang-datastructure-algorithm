@@ -9,11 +9,8 @@ function ChangingSequence(arr) {
     }
   });
 
-  console.log(delta);
-
   for (let i = 0; i < delta.length; i++) {
     if (i > 1) {
-      console.log(i, delta[i - 1], Math.sign(delta[i - 1]), delta[i], Math.sign(delta[i]));
       // different sign
       if (Math.sign(delta[i - 1]) !== Math.sign(delta[i])) {
         return i - 1;

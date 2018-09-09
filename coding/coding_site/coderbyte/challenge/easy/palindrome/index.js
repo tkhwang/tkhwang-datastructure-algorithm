@@ -13,6 +13,3 @@ function Palindrome(str) {
 }
 
 module.exports = Palindrome;
-
-m = "dood";
-console.log(Palindrome(m));
