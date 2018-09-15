@@ -2,6 +2,14 @@
 
 ## Current
 
+### Javascript
+
+[ES6 for Everyone — The best way to learn modern ES6 JavaScript](https://es6.io/)
+
+### Algorithm
+
+- The Coding Interview Bootcamp: Algorithms + Data Structure https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/learn/v4/overview
+
 ### Blockchain
 
 #### Core
@@ -18,10 +26,6 @@
 ### GO Language
 
 - Go: The Complete Developer's Guide (Golang) https://www.udemy.com/go-the-complete-developers-guide/learn/v4/content
-
-### Algorithm
-
-- The Coding Interview Bootcamp: Algorithms + Data Structure https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/learn/v4/overview
 
 ### Fullstack
 
