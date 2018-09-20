@@ -1,30 +1,41 @@
 function LetterCountI(str) {
 
-  // let output = {};
-  // let lst_output = [];
+  // str = "Hello apple pie";
+  /*
+  output  =  { 
+    Hello : {
+      H : 1,
+      e : 1,
+      l : 2,
+      o : 1,
+    }, apple : {
+    
+    }, pie : {
+      
+    }
+  }
+  */
 
-  // let words = str
-  //   .split(' ')
-  //   .map(word => word.split(''));
+  let output = {};
 
-  // console.log(words);
+  let words = m.split(' ');
+  words.forEach(function (word) {
+    output[word] = {};
+    let chs = word.split('');
+    chs.forEach(function (ch) {
+      if (output[word].hasOwnProperty(ch)) {
+        output[word][ch]++;
+      } else {
+        output[word][ch] = 1;
+      }
+    });
+  });
 
-  // words.forEach(function (word) {
-  //   output[word] = {};
-  //   for (let i = 0; i < word.length; i++) {
-  //     let c = word[i];
-  //     if (output[word].hasOwnProperty(c)) {
-  //       output[word][c]++;
-  //     } else {
-  //       output[word][c] = 1;
-  //     }
-  //   }
-  // });
+  // Sort by character
+  let key = Object.keys(output);
+  key.sort((a, b) => output[b] - output[a]);
 
-  // console.log(output);
-  // lst_output = output.split('');
-
-
+  console.log(output);
 }
 
 module.exports = LetterCountI;
