@@ -1,90 +1,39 @@
 function LetterCountI(str) {
 
-  // str = "Hello apple pie";
-  /*
-  output  =  { 
-    Hello : {
-      H : 1,
-      e : 1,
-      l : 2,
-      o : 1,
-    }, apple : {
-    
-    }, pie : {
-      
-    }
-  }
-  */
-
   let output = {};
+  let words = str.split(' ');
 
-  let words = m.split(' ');
   words.forEach(function (word) {
     output[word] = {};
-    let chs = word.split('');
-    chs.forEach(function (ch) {
-      if (output[word].hasOwnProperty(ch)) {
-        output[word][ch]++;
+    let temp = word.split('');
+    temp.forEach(function (el) {
+      if (output[word].hasOwnProperty(el)) {
+        output[word][el]++;
       } else {
-        output[word][ch] = 1;
+        output[word][el] = 1;
       }
-    });
-  });
+    })
+  })
 
-  // Sort by character
-  let key = Object.keys(output);
-  key.sort((a, b) => output[b] - output[a]);
+  let key = {};
+  words.forEach(function (word) {
+    key[word] = Object.keys(output[word]);
+    key[word].sort((a, b) => output[word][b] - output[word][a]);
+  })
 
-  console.log(output);
+  let max = 1;
+  let answer = '';
+  words.forEach(function (word) {
+    if (max < output[word][key[word][0]]) {
+      max = output[word][key[word][0]];
+      answer = word;
+    }
+  })
+
+  return answer === '' ? '-1' : answer;
 }
 
 module.exports = LetterCountI;
 
 m = "Hello apple pie";
 LetterCountI(m);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let words = str.split(" ").map(word => word.split("").join(''));
-// let output = {};
-// let max = {};
-
-// words.forEach(function (word) {
-//   output[word] = {};
-//   for (let ch = 0; ch < word.length; ch++) {
-//     let c = word[ch];
-//     if (output[word].hasOwnProperty(c)) {
-//       output[word][c]++;
-//     } else {
-//       output[word][c] = 1;
-//     }
-//   }
-// });
-
-// console.log(words);
-// console.log(output);
-
-// for (let key in output) {
-//   console.log('key', output[key]);
-//   max = Object.keys(output[key]).reduce((a, b) => output[key][a] > output[key][b] ? a : b);
-//   console.log(max);
-//   return max;
-// }
