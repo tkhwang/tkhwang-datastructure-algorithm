@@ -1,5 +1,6 @@
 function SimpleMode(arr) {
 
+  i
   let output = {};
   let max = 0
 
