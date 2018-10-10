@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Xhtml 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-size: 9pt;
+            font-family: "굴림";
+        }
+
+        div,
+        p {
+            border: 1px #eeeeee solid;
+            margin: 10px;
+        }
+    </style>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+    <script>
+        /*
+             주의:
+             연속해서 태그가 있지 않은 경우 jQuery객체.index() 메서드를 호출하면
+             인덱스 값이 항상 0이 나오게 됩니다.
+
+             이럴때는 다음과 같이 알아내야함.
+             $대상.index($대상);
+             $대상.index(대상DOM);
+
+             */
+
+        $(document).ready(function () {
+            $("ul  li a").click(function () {
+                alert($(this).index());
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu2</a></li>
+        <li><a href="#">menu3</a></li>
+        <li><a href="#">menu4</a></li>
+    </ul>
+</body>
+
+</html>
