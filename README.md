@@ -4,11 +4,7 @@
 
 ## Javascript
 
-### Basic / ES5 / ES6
-
-#### freeCodeCamp : Javascript Algorithms And Data Structures Certification (300 hours)
-
-- [Basic JavaScript | freeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
+### Basic / ES6
 
 #### Book
 
@@ -16,13 +12,15 @@
 - [알라딘: You Don't Know JS : this 와 객체 프로토타입, 비동기와 성능](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114466258)
 - [알라딘: You Don't Know JS : 타입과 문법, 스코프와 클로저](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=112387204)
 - [알라딘: 인사이드 자바스크립트 - 핵심 개념과 원리를 정확하게. jQuery, Node.js, 클로저의 개념까지](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=34486660)
+- [알라딘: 자바스크립트 & 제이쿼리 - 인터랙티브 프론트엔드 웹 개발 교과서](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=55027282)
 
-#### Lecture : Wes Bos
+#### freeCodeCamp : Javascript Algorithms And Data Structures Certification (300 hours)
+
+- [Basic JavaScript | freeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
+
+#### Lecture : Wes Bos, Stephen Grider
 
 - [ES6 for Everyone | Wes Bos](https://courses.wesbos.com/account/access/5b9c464c58c86744ddf8b2bb)
-
-#### Lecture : Stephen Grider
-
 - [ES6 Javascript: The Complete Developer's Guide | Udemy](https://www.udemy.com/javascript-es6-tutorial/learn/v4/t/lecture/5394973?start=30)
 
 ### DOM / jQuery
@@ -30,21 +28,33 @@
 - [알라딘: 프론트엔드 개발자를 위한 자바스크립트 프로그래밍](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=26434671)
 - [알라딘: HTML & CSS - 웹사이트 개발과 디자인 기초](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=21089367)
 
-### Functional Programming
+## Functional Programming
 
 - [알라딘: 함수형 자바스크립트 - 새롭고 올바른 자바스크립트 프로그래밍 기법](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=35917097)
 - [알라딘: 함수형 자바스크립트 프로그래밍](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=123715872)
 
 ## CSS / UI
 
+### BOOK
+
+- [알라딘: HTML & CSS - 웹사이트 개발과 디자인 기초](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=21089367)
+
 #### freeCodeCamp
 
-- [Basic CSS | freeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-css)
+- (DONE) [Basic CSS | freeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
 #### Nomad academy
 
 - [Nomad Coders : 카카오톡 프런트엔드 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/193412)
 - [Nomad Coders : 카카오톡 프런트엔드 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/202997)
+
+## Problem Solving
+
+#### Javascript
+
+- [Coderbyte | Programming challenges and courses](https://coderbyte.com/challenges)
+- [LeetCode](https://leetcode.com/problemset/all/)
+- [Codewars](https://www.codewars.com/dashboard)
 
 #### Project
 
