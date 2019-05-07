@@ -3,8 +3,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "expo": "^25.0.0",
-    "react": "16.2.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
+    "expo": "^32.0.6",
+    "react": "16.8.6",
+    "react-native": "^0.59.6"
   }
 }
