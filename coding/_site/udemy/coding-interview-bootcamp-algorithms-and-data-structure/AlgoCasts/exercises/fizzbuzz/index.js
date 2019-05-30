@@ -12,20 +12,6 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {
-  const internalFizzBuzz = n => {
-    let m;
-    if (n % 3 === 0 && n % 5 === 0) return "fizzbuzz";
-    else if (n % 3 === 0) return "fizz";
-    else if (n % 5 === 0) return "buzz";
-    else return n;
-  };
-
-  let idx = 1;
-  while (idx <= n) {
-    console.log(internalFizzBuzz(idx));
-    idx += 1;
-  }
-}
+function fizzBuzz(n) {}
 
 module.exports = fizzBuzz;
