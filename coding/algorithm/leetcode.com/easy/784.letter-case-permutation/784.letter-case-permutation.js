@@ -7,6 +7,32 @@
  * @param {string} S
  * @return {string[]}
  */
+
+var letterCasePermutation = function(S) {
+  const arrS = S.split("");
+  const result = [];
+  dfs("", 0);
+  return result;
+
+  function dfs(current, i) {
+    // Base
+    if (i === arrS.length) {
+      result.push(current);
+      return;
+    }
+
+    const ch = arrS[i];
+    if (0 <= ch && ch <= 9) {
+      current += ch;
+      dfs(current, i + 1);
+    } else {
+      dfs(current + arrS[i].toLowerCase(), i + 1);
+      dfs(current + arrS[i].toUpperCase(), i + 1);
+    }
+  }
+};
+
+/*
 var letterCasePermutation = function(S) {
   const isAlpha = ch => {
     if (("a" <= ch && ch <= "z") || ("A" <= ch && ch <= "Z")) return true;
@@ -35,3 +61,4 @@ var letterCasePermutation = function(S) {
   backtrack(array, result, 0);
   return result;
 };
+*/
