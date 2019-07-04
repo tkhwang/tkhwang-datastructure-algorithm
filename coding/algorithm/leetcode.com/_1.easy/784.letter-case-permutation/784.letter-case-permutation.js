@@ -62,3 +62,28 @@ var letterCasePermutation = function(S) {
   return result;
 };
 */
+
+// 3rd
+var letterCasePermutation = function(S) {
+  const dfs = (index, str, output, string) => {
+    // Base
+    if (index === string.length) {
+      output.push(str);
+      return;
+    }
+
+    // Recursive
+    if ("a" <= string[index] && string[index] <= "z") {
+      dfs(index + 1, str + string[index], output, string);
+      dfs(index + 1, str + string[index].toUpperCase(), output, string);
+    } else {
+      dfs(index + 1, str + string[index], output, string);
+    }
+  };
+
+  S = S.toLowerCase();
+
+  const output = [];
+  dfs(0, "", output, S);
+  return output;
+};
