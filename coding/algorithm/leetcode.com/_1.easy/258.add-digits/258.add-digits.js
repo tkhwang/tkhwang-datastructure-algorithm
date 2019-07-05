@@ -23,3 +23,15 @@ var addDigits = function(num) {
   if (num < 10) return num;
   return num % 9 === 0 ? 9 : num % 9;
 };
+
+// #3
+var addDigits = function(num) {
+  let numArr = String(num).split("");
+
+  while (numArr.length > 1) {
+    num = numArr.map(v => Number(v)).reduce((a, b) => a + b);
+    numArr = String(num).split("");
+  }
+
+  return num;
+};
