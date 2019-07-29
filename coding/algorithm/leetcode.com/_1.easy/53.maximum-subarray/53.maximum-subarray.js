@@ -20,6 +20,17 @@ var maxSubArray = function(nums) {
   return best;
 };
 
+var maxSubArray = function(nums) {
+  let maxEndingHere = nums[0];
+  let maxSofar = nums[0];
+
+  for (let i = 1; i < nums.length; i += 1) {
+    maxEndingHere = Math.max(nums[i], maxEndingHere + nums[i]);
+    maxSofar = Math.max(maxSofar, maxEndingHere);
+  }
+  return maxSofar;
+};
+
 // O(n2)
 var maxSubArray = function(nums) {
   let max = Number.MIN_SAFE_INTEGER;
