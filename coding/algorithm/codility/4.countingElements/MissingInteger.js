@@ -10,3 +10,17 @@ function solution(A) {
   }
   return max + 1;
 }
+
+// 100 %
+function solution(A) {
+  const hash = {};
+  A.map(value => (hash[value] = true));
+
+  let smallest = 1;
+
+  while (hash[smallest]) {
+    smallest += 1;
+  }
+
+  return smallest;
+}
