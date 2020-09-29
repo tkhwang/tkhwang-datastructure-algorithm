@@ -15,7 +15,12 @@ function reverseString(s: string[]): void {
 };
 ```
 
-two-pinter method
+* two-pinter method
+* 기존 변수 이용한 destructuring
+
+ ```
+ ([ s[right], s[left] ] = [ s[left], s[right]])
+ ```
 
 ```typescript
 /**
@@ -26,9 +31,7 @@ function reverseString(s: string[]): void {
     let right = s.length - 1;
 
     while (left < right) {
-        const [ x, y ] = [ s[left], s[right]]
-        s[left] = y
-        s[right] = x
+        ([ s[right], s[left] ] = [ s[left], s[right]])
         left += 1
         right -= 1
     }
